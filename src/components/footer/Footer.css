@@ -1,0 +1,120 @@
+.footer {
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        color: white;
+        padding-top: 180px;
+        position: fixed;
+        z-index: -2;
+        bottom: 0;
+        left: 0;
+    }
+    
+.footer-info {
+        font-size: 35px;
+        padding: 30px 0 30px 50px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+.footer-info > h1 {
+        padding-bottom: 15px;
+    }
+    
+.footer-contact {
+        font-size: 22px;
+        padding: 100px 0 30px 50px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+.footer-sns {
+        width: 70%;
+        position: absolute;
+        bottom: 40px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+    }
+    
+.sns-links {
+        display: grid;
+        width: 20%;
+        grid-template-columns: 1fr 1fr 1fr;
+        position: absolute;
+        padding-bottom: 350px;
+        padding-left: 60px;
+    }
+    
+.linkedin,
+.github,
+.envelope {
+        color: white;
+        font-size: 35px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        border-bottom: 4px solid transparent;
+    }
+
+    a{
+        text-decoration: none;
+        color :white
+    }
+    .tecn{
+        position: relative;
+        width: 50%;
+        height: 5%;
+        bottom: 0%;
+        left:10%;
+        top:21%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 30px;
+        align-content: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        border: solid 1px;
+        border-radius: 20px;
+    }
+.linkedin:hover,
+.github:hover,
+.envelope:hover{
+        
+        border-color: white;
+        transition: all 0.3s ease-out;
+    }
+
+
+.design-by {
+        font-size: 18px;
+        padding-left: 50px;
+        color: white;
+    }
+    
+@media only screen and (max-width: 860px) {
+.footer-info {
+        text-align: center;
+        padding: 0;
+        font-size: 20px;
+        }
+    
+.footer-contact {
+        font-size: 16px;
+        padding: 100px 0 30px 0;
+        text-align: center;
+        }
+    
+.footer-sns {
+        grid-template-columns: 1fr;
+        text-align: center;
+        }
+    
+.design-by {
+        padding: 0 0 40px 0;
+        }
+    }
+   

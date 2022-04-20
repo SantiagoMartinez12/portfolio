@@ -1,0 +1,43 @@
+.cover-container {
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.cover-container > h1 {
+    color: white;
+    font-size: 100px;
+}
+
+.cover-container > p {
+    margin-top: 8px;
+    color: white;
+    font-size: 32px;
+}
+
+@media screen and (max-width: 960px) {
+        .cover-container > h1 {
+        font-size: 70px;
+        text-align: center;
+    }
+
+.cover-container > p {
+    text-align: center;
+    font-size: 22px;
+    width: 85%;
+    }
+}
+
